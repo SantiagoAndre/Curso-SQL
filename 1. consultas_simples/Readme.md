@@ -80,7 +80,7 @@ Obtener todos los trabajadores del departamento ADMIN:
 ```
 
 #### Operadores logicos:
-```
+```sql
 Select * from Worker where FIRST_NAME in ('Vipul','Satish');
 Select * from Worker where FIRST_NAME not in ('Vipul','Satish');
 Select * from Worker where DEPARTMENT like 'Admin%';
